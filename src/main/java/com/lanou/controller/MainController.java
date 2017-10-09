@@ -25,6 +25,12 @@ public class MainController {
     }
 
 
+    @RequestMapping(value = "/index")
+    public String first(){
+        return "home";
+    }
+
+
 
 
 
